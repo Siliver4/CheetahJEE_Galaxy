@@ -1,17 +1,15 @@
 <h1 align="center">
     <br>
-      <!--
-	  <a href="https://raw.githubusercontent.com/Siliver4/CheetahJEE_Galaxy/master/assets/img/cheetah_logo.png">
-        <img src="assets/img/bluebird_logo.png" alt="BluebirdLore_Manager_logo" width="247">
+      <a href="https://raw.githubusercontent.com/Siliver4/CheetahJEE_Galaxy/master/assets/img/cheetah_logo.png">
+        <img src="assets/img/cheetah_logo.png" alt="CheetahJEE_Galaxy_logo" width="247">
       </a>
-	  -->
     <br>
       CheetahJEE_Galaxy
     <br>
 </h1>
 
 <p align="center">
-    JEE universe is wide, let's try to go across the DAO galaxy
+    JEE universe is wide, let's try to visit the DAO planet
 </p>
 
 <br>
@@ -20,7 +18,7 @@
 <b>Personal Objectives :</b>
 
   Learning purpose project :
-    using IntelliJ IDEA ULTIMATE (For educational use only)
+    using IntelliJ IDEA ULTIMATE (for educational use only)
     using DAO design pattern (first time)
 
   Additionally :
