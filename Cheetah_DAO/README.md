@@ -23,7 +23,7 @@
 
   Additionally :
     using Java
-    using Servlet, JSP, JSTL, ${EL language}, JDBC, Basic exception/error handlers
+    using Servlet, JSP, JSTL, ${EL language}, JDBC, Bean, Basic exception/error handlers
     using Glashfish v5.0.0
 </pre>
 
@@ -33,7 +33,7 @@
 
  - Using DAO design pattern, a webuser can view a list of clients (surname, name) or register one through a web form.
  
- - Servlet used as controllers, jsp as views, and finally for the model : a Client class as a bean entity, a ClientDao interface to provide action on the database (add, list), a ClientDaoImpl which is the implementation of the ClientDao class using SQL, and a DaoFactory to generate centralized access points to the database.
+ - Servlet used as controllers, jsp as views, and finally for the model : a Client class as a bean, a ClientDao interface to provide action on the database (add, list), a ClientDaoImpl which is the implementation of the ClientDao class using SQL, and a DaoFactory to generate centralized access points to the database.
  
  - Manual transaction with the database in case of SQLException (commit/rollback).
  
