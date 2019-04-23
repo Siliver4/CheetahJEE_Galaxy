@@ -41,7 +41,7 @@
 <h4>Problems encountered :</h4>
 
  - Having to set the timezone for the BoneCP database url.
-   - to set the configuration of BoneCP I used a xml file <a href="https://raw.githubusercontent.com/Siliver4/CheetahJEE_Galaxy/master/boncecp_datasource.xml"><b>'boncecp_datasource.xml'</b></a> and the command line <b>'add-resources boncecp_datasource.xml'</b> through the Glassfish admin command line <b>'asadmin.bat'</b>.
+   - to set the configuration of BoneCP I used a xml file <a href="https://github.com/Siliver4/CheetahJEE_Galaxy/blob/master/Cheetah_JPA/bonecp-datasource.xml"><b>'boncecp_datasource.xml'</b></a> and the command line <b>'add-resources boncecp_datasource.xml'</b> through the Glassfish admin command line <b>'asadmin.bat'</b>.
    - to reset those values, I had to delete the previous ones using <b>'delete-jdbc-resource jdbc/bonecp_resource'</b> and <b>'delete-jdbc-connection-pool bonecpPool'</b> 
    - to fix the problem I had to use the <b>'serverTimezone=UTC'</b> url parameter as follow.
 
