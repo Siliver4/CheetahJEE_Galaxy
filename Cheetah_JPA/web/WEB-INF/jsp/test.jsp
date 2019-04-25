@@ -30,9 +30,9 @@
 </form>
 
 <ul>
-    <%--<c:forEach var="client" items="${ clients }">
+    <c:forEach var="client" items="${ clients }">
         <li><c:out value="${ client.surname }" /> <c:out value="${ client.name }" /></li>
-    </c:forEach>--%>
+    </c:forEach>
 </ul>
 </body>
 </html>

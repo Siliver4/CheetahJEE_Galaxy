@@ -14,7 +14,7 @@ import javax.persistence.Query;
 @Stateless
 public class ClientDaoImpl {
 
-    private static final String JPQL_SELECT_ALL = "SELECT c.surname, c.name FROM Client c";
+    private static final String JPQL_SELECT_ALL = "SELECT c FROM Client c";
     private static final String JPQL_SELECT_BY_ID = "SELECT c FROM Client c WHERE c.id=:id";
     private static final String PARAM_ID = "id";
 
